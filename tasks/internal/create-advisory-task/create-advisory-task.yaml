@@ -86,7 +86,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: create-advisory
-      image: quay.io/konflux-ci/release-service-utils@sha256:6ce9a089345bcb8d650d3acb1fbd449e065bd43341e9eaeaec4540a981a5c5a2
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:09a0c9240193d1a62b6ea89ff14f85cd8d51c0f581065c623eedb5660884d8be
       computeResources:
         limits:
           memory: 1Gi

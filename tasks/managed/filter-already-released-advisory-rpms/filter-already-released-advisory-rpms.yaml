@@ -164,7 +164,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: filter
-      image: quay.io/konflux-ci/release-service-utils@sha256:e30436d3473f792353ba75724328c9b2f3b7c482e234ab6e7b8a46a5e3ef52ff
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:09a0c9240193d1a62b6ea89ff14f85cd8d51c0f581065c623eedb5660884d8be
       computeResources:
         limits:
           memory: 768Mi

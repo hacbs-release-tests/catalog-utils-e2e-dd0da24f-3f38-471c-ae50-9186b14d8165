@@ -186,7 +186,7 @@ spec:
 
   steps:
     - name: push-artifacts-to-cdn
-      image: quay.io/konflux-ci/release-service-utils@sha256:be4fe4e3c84e156a3d14c4d59b641b87928d795f767cf46f73ab1f338440b177
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:09a0c9240193d1a62b6ea89ff14f85cd8d51c0f581065c623eedb5660884d8be
       computeResources:
         limits:
           memory: 512Mi
